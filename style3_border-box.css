@@ -1,0 +1,277 @@
+/* This ordering of CSS elements is for "box-sizing: border-box". */
+
+#Concentric-CSS-Overview {
+  display: ;    /* Directions about where and how the box is placed */
+  position: ;
+  float: ;
+  clear: ;
+
+  margin: ;     /* Layers of the box model, from outside to inside */
+
+  visibility: ; /* Next: can the box be seen? */
+  opacity: ;
+  z-index: ;
+
+  outline: ;
+
+  width: ;      /* Content dimensions and scrollbars */
+  height: ;
+
+  background: ; /* (border, padding, and content ALL get the background color) */
+  border: ;
+  padding: ;
+
+  overflow: ;
+
+  color: ;      /* Textual content */
+  text: ;
+  font: ;
+}
+
+#Concentric-CSS-Complete {
+  /* All CSS properties, in roughly the order I use when being careful */
+
+  /* box-sizing */
+  /* [content-box|border-box|inherit|initial|unset]*/ ;
+  box-sizing: ;
+
+  /* position */
+  display: ;
+  position: ;
+  top: ;
+  right: ;
+  bottom: ;
+  left: ;
+
+  float: ;
+  clear: ;
+
+  /* flex position */
+  order: ;
+  align-self: ;
+
+  /* column position */
+  column-span: ;
+
+  /* vertical alignment */
+  vertical-align: ;
+
+  /* page breaks */
+  page-break-before: ;  /* [NOTE]: to be changed for <tt>break-[before|after]</tt>; */
+  page-break-after: ;
+  page-break-inside: ;
+
+  /* margin */
+  margin: ;
+  margin-top: ;
+  margin-right: ;
+  margin-bottom: ;
+  margin-left: ;
+
+  /* visibility */
+  visibility: ;
+  opacity: ;
+  z-index: ;
+
+  /* transform */
+  transform: ;
+  transform-origin: ;
+  transform-style: ;
+  backface-visibility: ;
+
+  /* outline */
+  outline: ;
+  outline-offset: ;
+  outline-width: ;
+  outline-style: ;
+  outline-color: ;
+
+  /* box-shadow */
+  box-shadow: ;
+
+  /* flex size */
+  flex: ;
+  flex-grow: ;
+  flex-shrink: ;
+  flex-basis: ;
+
+  /* width */
+  width: ;
+  min-width: ;
+  max-width: ;
+
+  /* height */
+  height: ;
+  min-height: ;
+  max-height: ;
+
+  /* cursor */
+  cursor: ;
+
+  /* background */
+  background: ;
+  background-position: ;
+  background-attachment: ;
+  background-origin: ;
+  background-clip: ;
+  background-repeat: ;
+  background-size: ;
+  background-color: ;
+  background-image: ;
+
+  /* border */
+  border: ;
+  border-top: ;
+  border-right: ;
+  border-bottom: ;
+  border-left: ;
+  border-width: ;
+  border-top-width: ;
+  border-right-width: ;
+  border-bottom-width: ;
+  border-left-width: ;
+
+  /* border-radius */
+  border-radius: ;
+  border-top-left-radius: ;
+  border-top-right-radius: ;
+  border-bottom-left-radius: ;
+  border-bottom-right-radius: ;
+
+  /* border-style */
+  border-style: ;
+  border-top-style: ;
+  border-right-style: ;
+  border-bottom-style: ;
+  border-left-style: ;
+
+  /* border-color */
+  border-color: ;
+  border-top-color: ;
+  border-right-color: ;
+  border-bottom-color: ;
+  border-left-color: ;
+
+  /* border-image */
+  border-image: ;
+  border-image-source: ;
+  border-image-width: ;
+  border-image-outset: ;
+  border-image-repeat: ;
+  border-image-slice: ;
+
+  /* padding */
+  padding: ;
+  padding-top: ;
+  padding-right: ;
+  padding-bottom: ;
+  padding-left: ;
+
+  /* perspective */
+  perspective: ;
+  perspective-origin: ;
+
+  /* overflow */
+  overflow: ;
+  overflow-x: ;
+  overflow-y: ;
+  resize: ;
+
+  /* flex  */
+  flex-flow: ;
+  flex-direction: ;
+  flex-wrap: ;
+  justify-content: ;
+  align-content: ;
+  align-items: ;
+
+  /* columns */
+  columns: ;
+  column-count: ;
+  column-width: ;
+  column-gap: ;
+  column-rule: ;
+  column-rule-width: ;
+  column-rule-style: ;
+  column-rule-color: ;
+  column-fill: ;
+
+  /* list-style */
+  list-style: ;
+  list-style-position: ;
+  list-style-type: ;
+  list-style-image: ;
+
+  /* tables */
+  caption-side: ;
+  table-layout: ;
+  border-collapse: ;
+  border-spacing: ;
+  empty-cells: ;
+
+  /* text alignment */
+  direction: ;
+  tab-size: ;
+  text-align: ;
+  text-align-last: ;
+  text-justify: ;
+  text-indent: ;
+
+  /* text spacing */
+  line-height: ;
+  white-space: ;
+  word-spacing: ;
+  word-break: ;
+  word-wrap: ;
+  letter-spacing: ;
+  color: ;
+
+  /* text decoration */
+  text-decoration: ;
+  text-decoration-color: ;
+  text-decoration-line: ;
+  text-decoration-style: ;
+  text-rendering: ;
+  text-shadow: ;
+  text-transform: ;
+  text-overflow: ;
+
+  /* font */
+  font: ;
+  font-family: ;
+  font-size: ;
+  font-size-adjust: ;
+  font-stretch: ;
+  font-weight: ;
+  font-smoothing: ;
+  osx-font-smoothing: ;
+  font-variant: ;
+  font-style: ;
+
+  /* content */
+  content: ;
+  quotes: ;
+
+  /* counters */
+  counter-reset: ;
+  counter-increment: ;
+
+  /* tranistions */
+  transition: ;
+  transition-property: ;
+  transition-duration: ;
+  transition-timing-function: ;
+  transition-delay: ;
+
+  /* animation */
+  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]]*/
+  animation: ;
+  animation-name: ;
+  animation-duration: ;
+  animation-timing-function: ;
+  animation-delay: ;
+  animation-iteration-count: ;
+  animation-direction: ;
+  animation-fill-mode: ;
+  animation-play-state: ;
+}
