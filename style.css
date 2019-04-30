@@ -11,14 +11,15 @@
   float: ;
   clear: ;
 
+  margin: ;     /* Layers of the box model, from outside to inside */
+
   visibility: ; /* Next: can the box be seen? */
   opacity: ;
   z-index: ;
 
-  margin: ;     /* Layers of the box model, from outside to inside */
   outline: ;
+  background: ; /* (border, padding, and content ALL get the background color) */
   border: ;
-  background: ; /* (padding and content BOTH get the background color) */
   padding: ;
 
   width: ;      /* Content dimensions and scrollbars */
@@ -43,9 +44,7 @@
   float: ;
   clear: ;
 
-  visibility: ;
-  opacity: ;
-  z-index: ;
+  vertical-align: ;
 
   margin: ;
   margin-top: ;
@@ -53,7 +52,19 @@
   margin-bottom: ;
   margin-left: ;
 
+  visibility: ;
+  opacity: ;
+  z-index: ;
+
   outline: ;
+
+  cursor: ;
+
+  background: ;
+  background-position: ;
+  background-repeat: ;
+  background-color: ;
+  background-image: ;
 
   border: ;
   border-top: ;
@@ -79,13 +90,6 @@
   border-bottom-color: ;
   border-left-color: ;
 
-  background: ;
-  background-color: ;
-  background-image: ;
-  background-repeat: ;
-  background-position: ;
-  cursor: ;
-
   padding: ;
   padding-top: ;
   padding-right: ;
@@ -103,25 +107,23 @@
   overflow: ;
 
   list-style: ;
-  caption-side: ;
 
+  caption-side: ;
   table-layout: ;
   border-collapse: ;
   border-spacing: ;
   empty-cells: ;
 
-  vertical-align: ;
-
   text-align: ;
   text-indent: ;
-  text-transform: ;
-  text-decoration: ;
-
   line-height: ;
+  white-space: ;
   word-spacing: ;
   letter-spacing: ;
-  white-space: ;
   color: ;
+
+  text-decoration: ;
+  text-transform: ;
 
   font: ;
   font-family: ;
